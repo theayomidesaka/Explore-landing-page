@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="background_wrapper">
+        <div class="hero-section">
+            <ul class="navLinks">
+                <li>Homepage</li>
+                <li>Showcase</li>
+                <li>Feature</li>
+                <li>About us</li>
+            </ul>
+
+            <div class="heroText">
+                <h1>Join the exploration</h1>
+            <p>A platform designed for marketers to host jaw-dropping experiences that drive revenue.</p>
+            
+            <div class="button-container">
+                <button class="hero-primary-button" id="primary-button">Demo</button>
+                <button class="hero-secondary-button" id="secondary-button">
+                    <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.777344 0.0507812V17.1514L15.0279 8.60111L0.777344 0.0507812Z" fill="white"/>
+                        </svg>
+                    How it works</button>
+            </div>
+            </div>
+            
+        </div>
+        
+        <div class="login-form">
+
+         <form>
+
+        <div class="input-area">
+
+            <div class="fullname-field">
+                <label for="fullname">Enter full name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+                <p class="fullname-alert" id="fullname-alert"></p>
+            </div>
+
+            <div class="email-address-field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="Enter email address">
+                <p class="email-alert" id="email-alert"></p>
+            </div>
+
+            <div class="phone-number-field">
+                <label for="phone-number">Phone number</label>
+                <input type="number" id="phone-number" name="phonenumber" placeholder="Enter phone number">
+                <p class="phone-number-alert" id="phone-number-alert"></p>
+            </div>
+        
+        </div>
+            <div class="button-container">
+                <button class="secondary-button" id="secondary-button">Sign in</button>
+                <button class="primary-button" id="primary-button">Create account</button>
+            </div>
+        </form>
+        </div>
+
+    </section>    
+    
+    <script src="./index.js"></script>
+</body>
+</html>
